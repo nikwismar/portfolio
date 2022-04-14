@@ -261,3 +261,52 @@ textarea {
   }
 }
 
+/* Start of My Code */
+
+/* Link Appearance */
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.subheader {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.main-menu-button {
+  display: flex;
+
+}
