@@ -263,31 +263,58 @@ textarea {
 
 /* Start of My Code */
 
+/* Font */
+.text {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 /* Link Appearance */
 
 a:link {
-  color: green;
+  color: darkgray;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: pink;
+  color: darkgray;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: red;
+  color: gray;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:active {
-  color: yellow;
+  color: darkgray;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
+
+
+/* Icon Styles */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Icon Hover Effect */
+.fa-linkedin:hover {
+ color:#0e76a8;
+}
+
+.fa-instagram:hover {
+  color: #bc2a8d;
+}
+
+
+/* Rest of CSS */
 
 .header {
   display: flex;
@@ -298,15 +325,51 @@ a:active {
   display: flex;
   justify-content: center;
   gap: 20px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: darkgray;
 }
+
+.homepage-menu {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  gap: 10px;
+}
+
+/* Homepage Menu Links */
+
+a:link {
+  color: darkgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: darkgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+
 
 .main-menu {
   display: flex;
   justify-content: center;
   gap: 20px;
-}
-
-.main-menu-button {
-  display: flex;
-
 }
