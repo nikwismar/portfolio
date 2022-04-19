@@ -296,6 +296,7 @@ a:active {
 
 
 /* Icon Styles */
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -305,12 +306,27 @@ a:active {
 }
 
 /* Icon Hover Effect */
+
 .fa-linkedin:hover {
  color:#0e76a8;
 }
 
 .fa-instagram:hover {
   color: #bc2a8d;
+}
+
+/* Icon Position */
+
+.fa-linkedin {
+  position: absolute;
+  top: 20px;
+  right: 80px;
+}
+
+.fa-instagram {
+  position: absolute;
+  top: 20px;
+  right: 10px;
 }
 
 
@@ -372,4 +388,31 @@ a:active {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+
+/* Contact Info Links */
+
+.contact-info:link {
+  color: darkgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.contact.info:visited {
+  color: darkgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.contact-info:hover {
+  color: #1cb2f5;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.contact-info:active {
+  color: darkgray;
+  background-color: transparent;
+  text-decoration: none;
 }
