@@ -353,6 +353,15 @@ a:active {
   gap: 10px;
 }
 
+/* Homepage Image */
+
+.background-image {
+  height: 500px;
+  background-image: url(../img/);
+  background-size: cover;
+  background-position: center;
+}
+
 /* Homepage Menu Links */
 
 a:link {
