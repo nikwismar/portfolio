@@ -347,19 +347,38 @@ a:active {
 }
 
 .homepage-menu {
-  display: flex;
-  flex-direction: column;
-  font-size: 3rem;
-  gap: 10px;
+
+  justify-content: space-evenly;
+    align-items: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 700;
+    gap: 10px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+.homepage-content {
+  position: relative;
+  
 }
 
 /* Homepage Image */
 
 .background-image {
   height: 500px;
-  background-image: url(../img/);
+  background-image: url(../img/homepage-image.PNG);
   background-size: cover;
   background-position: center;
+
+  
 }
 
 /* Homepage Menu Links */
