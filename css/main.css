@@ -444,3 +444,14 @@ a:active {
   background-color: transparent;
   text-decoration: none;
 }
+
+.phone-email {
+  font-size: 3rem;
+  font-weight: 700;
+  color: darkgray;
+}
+
+.contact-info {
+  font-size: 3rem;
+  font-weight: 700;
+}
