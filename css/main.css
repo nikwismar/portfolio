@@ -348,7 +348,7 @@ a:active {
 
 .homepage-menu {
 
-  justify-content: space-evenly;
+  justify-content: top;
     align-items: left;
     padding: 20px;
     display: flex;
@@ -373,7 +373,7 @@ a:active {
 /* Homepage Image */
 
 .background-image {
-  height: 500px;
+  height: 700px;
   background-image: url(../img/homepage-image.PNG);
   background-size: cover;
   background-position: center;
@@ -421,6 +421,66 @@ a:active {
 }
 
 
+
+
+
+/* Work */
+
+.work-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-header {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.portfolio-image {
+  height: 300px;
+  max-width: 500px;
+}
+
+
+/* About */
+
+.about-text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info-image {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.phone-email {
+  font-size: 2rem;
+  font-weight: 500;
+  color: darkgray;
+}
+
+.contact-info {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
 /* Contact Info Links */
 
 .contact-info:link {
@@ -447,13 +507,5 @@ a:active {
   text-decoration: none;
 }
 
-.phone-email {
-  font-size: 3rem;
-  font-weight: 700;
-  color: darkgray;
-}
 
-.contact-info {
-  font-size: 3rem;
-  font-weight: 700;
-}
+
