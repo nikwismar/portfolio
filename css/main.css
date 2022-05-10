@@ -679,9 +679,17 @@ a:active {
   justify-content: center;
 }
 
+.about-text {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
 .contact-info {
   font-size: 0.75rem;
   font-weight: 500;
+  display: flex;
+  justify-content: center;
 }
 
 /* Contact Info Links */
