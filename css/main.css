@@ -675,6 +675,8 @@ a:active {
   font-size: 0.75rem;
   font-weight: 500;
   color: black;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-info {
