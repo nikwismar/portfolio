@@ -263,7 +263,12 @@ textarea {
 
 /* Start of My Code */
 
-/* Font */
+/* Computer Screen Dimensions */
+
+@media (min-width: 1200px) {
+
+
+  /* Font */
 .text {
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
@@ -271,63 +276,30 @@ textarea {
 /* Link Appearance */
 
 a:link {
-  color: darkgray;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: darkgray;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: gray;
+  color: blue;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:active {
-  color: darkgray;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
 
-/* Icon Styles */
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
-/* Icon Hover Effect */
-
-.fa-linkedin:hover {
- color:#0e76a8;
-}
-
-.fa-instagram:hover {
-  color: #bc2a8d;
-}
-
-/* Icon Position */
-
-.fa-linkedin {
-  position: absolute;
-  top: 20px;
-  right: 80px;
-}
-
-.fa-instagram {
-  position: absolute;
-  top: 20px;
-  right: 10px;
-}
 
 
 /* Rest of CSS */
@@ -343,7 +315,7 @@ a:active {
   gap: 20px;
   font-size: 1rem;
   font-weight: 300;
-  color: darkgray;
+  color: black;
 }
 
 .homepage-menu {
@@ -384,25 +356,25 @@ a:active {
 /* Homepage Menu Links */
 
 a:link {
-  color: darkgray;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: darkgray;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: gray;
+  color: blue;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:active {
-  color: darkgray;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
@@ -455,7 +427,7 @@ a:active {
 .about-text {
   font-size: 1rem;
   font-weight: 400;
-  color: gray;
+  color: black;
   display: flex;
   justify-content: center;
 }
@@ -473,7 +445,7 @@ a:active {
 .phone-email {
   font-size: 2rem;
   font-weight: 500;
-  color: darkgray;
+  color: black;
 }
 
 .contact-info {
@@ -484,28 +456,257 @@ a:active {
 /* Contact Info Links */
 
 .contact-info:link {
-  color: darkgray;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
 .contact.info:visited {
-  color: darkgray;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
 .contact-info:hover {
-  color: #1cb2f5;
+  color: blue;
   background-color: transparent;
   text-decoration: none;
 }
 
 .contact-info:active {
-  color: darkgray;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
+}
+
+
+
+
+
+
+
+
+
+/* Phone Screen Dimensions */
+
+@media (max-width: 1199px) {
+  /* Font */
+.text {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Link Appearance */
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+/* Rest of CSS */
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: 0.75rem;
+}
+
+.subheader {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 0.5rem;
+  font-weight: 300;
+  color: black;
+}
+
+.homepage-menu {
+
+  justify-content: top;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: 700;
+    gap: 5px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+.homepage-content {
+  position: relative;
+  
+}
+
+/* Homepage Image */
+
+.background-image {
+  height: 400px;
+  background-image: url(../img/homepage-image.PNG);
+  background-size: cover;
+  background-position: center;
+
+  
+}
+
+/* Homepage Menu Links */
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 0.5rem;
+  font-weight: 400;
+}
+
+
+
+
+
+/* Work */
+
+.work-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-header {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  font-weight: 500;
+  font-size: 0.75rem;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-image {
+  height: 200px;
+  max-width: 400px;
+}
+
+
+/* About */
+
+.about-text {
+  font-size: 0.5rem;
+  font-weight: 400;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info-image {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  max-width: 400px;
+
+}
+
+.contact-info-section {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.phone-email {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: black;
+}
+
+.contact-info {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Contact Info Links */
+
+.contact-info:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.contact.info:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.contact-info:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.contact-info:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+}
 
 
